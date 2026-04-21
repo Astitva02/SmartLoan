@@ -1,0 +1,161 @@
+body{
+  height:1800px;
+}
+
+.logo{
+  height:50px;
+}
+.header-{
+  display:flex;
+  flex-direction:row;
+  left:0;
+  top:0;
+  right:0;
+  justify-content: space-between;
+  margin-top:10px;
+}
+.middle-section{
+  display:flex;
+  
+}
+.left-section{
+  display:flex;
+  align-items: center;
+}
+.about-us{
+  color:rgba(94, 56, 183);
+}
+.home,
+.about-us,
+.case-studies{
+  padding-right:40px;
+  cursor:pointer;
+}
+.contact{
+  padding-top:4px;
+  margin-right:10px;
+  margin-left:30px;
+  padding-bottom:2px;
+  border-radius:2px;
+  border-width: 0;
+  background-color: rgba(94, 56, 183);
+  color: white;
+  height: 30px;
+  cursor: pointer;
+}
+.contact:hover{
+  background-color: rgb(83, 48, 162);
+}
+.admin{
+  padding-right:40px;
+  cursor:pointer;
+}
+.middle-title{
+  font-size:46px;
+  font-style:bold;
+  padding-top: 100px;
+  padding-left: 50px;
+  margin-bottom:30px;
+  margin-top:0px;
+}
+.middle{
+  background-color:rgba(135, 79, 255);
+  height: 300px;
+  
+}
+.middle-text{
+  font-size: 20px;
+  font-style:bold;
+  padding-left:50px;
+  padding-right:450px;
+}
+.our-story{
+  margin-top:50px;
+  background-color:rgb(239, 235, 235);
+  height:400px;
+}
+.story{
+  margin-left: 480px;
+  font-size:46px;
+  padding-top:40px;
+}
+.story-text{
+  font-size:20px;
+  padding-left:50px;
+  padding-right:50px;
+  font-style:bold;
+}
+.our-values{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size:46px;
+  margin-top: 60px;
+  background-color:rgb(237, 237, 237);
+  height:400px;
+  
+}
+.values-parts{
+  display:flex;
+  flex-direction: row;
+  font-style:bold;
+  
+}
+.value-title{
+  font-size:18px;
+}
+.value-text{
+  font-size:12px;
+  margin-top:6px;
+}
+.customer-first{
+  margin-right:20px;
+  background-color:white;
+  margin-left:20px;
+  height:180px;
+  padding-left:10px;
+  padding-top:60px;
+}
+.transparency{
+  background-color:white;
+  margin-right:20px;
+  height:180px;
+  padding-left:10px;
+  padding-top:60px;
+}
+.excellence{
+  background-color: white;
+  margin-right:20px;
+  height:180px;
+  padding-left:10px;
+  padding-top:60px;
+}
+.accessibility{
+  background-color: white;
+  margin-right:20px;
+  height:180px;
+  padding-left:10px;
+  padding-top:60px;
+}
+.team-pic{
+  width:1300px;
+  
+}
+.home,
+.about-us,
+.case-studies,
+.blog,
+.admin,
+.user-button{
+  border:none;
+  font-size:16px;
+  background-color: white;
+}
+.home,
+.about-us,
+.case-studies,
+.blog,
+.admin,
+.user-button:hover{
+  cursor:pointer;
+}
