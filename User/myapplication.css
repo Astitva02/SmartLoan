@@ -1,0 +1,19 @@
+.user-button{
+  display:flex;
+  flex-direction: row;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.new-button,
+.my-button,
+.document-button,
+.profile-button{
+  width: 140px;
+  margin-left: 20px;
+  border:none;
+  font-size: 15px;
+  border-radius:8px;
+}
+.my-button{
+  background-color: rgb(216, 216, 216);
+}

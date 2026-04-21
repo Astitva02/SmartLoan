@@ -1,0 +1,158 @@
+
+.logo{
+  height:50px;
+}
+.header{
+  display:flex;
+  flex-direction:row;
+  left:0;
+  top:0;
+  right:0;
+  justify-content: space-between;
+  margin-top:10px;
+}
+.middle-section{
+  display:flex;
+}
+.left-section{
+  display:flex;
+  align-items: center;
+}
+
+.home,
+.about-us,
+.case-studies{
+  padding-right:40px;
+}
+.contact{
+  padding-top:4px;
+  margin-right:10px;
+  margin-left:30px;
+  padding-bottom:2px;
+  border-radius:2px;
+  border-width: 0;
+  background-color: rgba(94, 56, 183);
+  color: white;
+  height: 30px;
+  cursor:pointer;
+}
+.admin{
+  padding-right:40px;
+}
+.middle-title{
+  font-size:46px;
+  font-style:bold;
+  padding-top: 100px;
+  padding-left: 50px;
+  margin-bottom:30px;
+  margin-top:0px;
+}
+.middle{
+  background-color:white;
+  height: 300px;
+  
+}
+.middle-text{
+  font-size: 20px;
+  font-style:bold;
+  padding-left:50px;
+  padding-right:450px;
+}
+.user-button{
+  display:flex;
+  flex-direction: row;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+.new-button,
+.my-button,
+.document-button,
+.profile-button{
+  width: 140px;
+  margin-left: 20px;
+  border:none;
+  font-size: 15px;
+  border-radius:8px;
+}
+.new-button{
+  background-color:rgb(216, 216, 216);
+}
+.app-title{
+  font-size:16px;
+  padding-left: 50px;
+}
+.app-text{
+  padding-left:50px;
+  font-size:16px;
+  color:rgb(127, 127, 127);
+}
+.button-loan{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.one{
+  padding-left:50px;
+}
+.two{
+  padding-right:450px;
+}
+.two-purpose{
+ padding-right:485px;
+}
+.empty{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blank-type{
+  margin-left:50px;
+  width:300px;
+}
+.blank-amount{
+  margin-right:240px;
+  width:300px;
+}
+.income{
+  padding-left:50px;
+}
+.blank-income{
+  width:500px;
+  margin-left:50px;
+}
+.footer{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.submit{
+  margin-left:50px;
+  width:150px;
+  background-color: rgba(94, 56, 183);
+  border:none;
+  color:white;
+  border-radius: 6px;;
+}
+.draft{
+  margin-right:800px;
+  width:120px;
+  border-radius: 6px;
+}
+.home,
+.about-us,
+.case-studies,
+.blog,
+.admin,
+.user-button{
+  border:none;
+  font-size:16px;
+  background-color: white;
+}
+.home,
+.about-us,
+.case-studies,
+.blog,
+.admin,
+.user-button:hover{
+  cursor:pointer;
+}
