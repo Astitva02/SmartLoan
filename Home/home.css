@@ -1,0 +1,207 @@
+body{
+  height:3000px;  
+}
+.logo{
+  height:50px;
+}
+.header{
+  display:flex;
+  flex-direction:row;
+  left:0;
+  top:0;
+  right:0;
+  justify-content: space-between;
+  margin-top:10px;
+}
+.middle-section{
+  display:flex;
+}
+.left-section{
+  display:flex;
+  align-items: center;
+}
+
+.home,
+.about-us,
+.case-studies{
+  padding-right:40px;
+}
+.contact{
+  padding-top:4px;
+  margin-right:10px;
+  margin-left:30px;
+  padding-bottom:2px;
+  border-radius:2px;
+  border-width: 0;
+  background-color: rgba(94, 56, 183);
+  color: white;
+  height: 30px;
+}
+.admin{
+  padding-right:40px;
+}
+.mid{
+  display:flex;
+  flex-direction: row;
+  top:100px;
+}
+.home-image{
+  height:350px;
+  display:flex;
+  right:0;
+  top:20px;
+}
+.mid-text{
+  display:flex;
+  flex-direction: column;
+  background-color:rgba(135, 79, 255);
+}
+.mid-title{
+  font-size:26px;
+  padding-top:80px;
+  padding-left:40px;
+  padding-bottom:20px;
+}
+.mid-body{
+  line-height: 20px;
+  padding-left:40px;
+  margin-right:150px;
+  padding-bottom:70px;
+}
+.mid-lower{
+  padding-left:40px;
+}
+.apply{
+  margin-right:50px;
+  height: 40px;
+  width:100px;
+  color: white;
+  border-width: 0;
+  border-radius:2px;
+  background-color: rgba(61, 99, 234);
+}
+.learn{
+   height: 40px;
+  width:100px;
+  border-width: 0;
+  border-radius:2px;
+}
+.learn,
+.apply:hover{
+  cursor:pointer;
+}
+.lower{
+  display:flex;
+  flex-direction: column;
+  background-color: rgba(220, 204, 255);
+  align-items: center;
+  margin-top:30px;
+  margin-right:40px;
+  margin-left:40px;
+  height: 420px;
+}
+.lower-title{
+  font-size:46px;
+  font-style:bold;
+}
+.lower-box{
+  display:flex;
+  flex-direction: row;
+  
+}
+.lower-box-quick{
+   width:250px;
+  background-color: white;
+  margin-left:-50px;
+  margin-right:24px;
+  height: 180px;
+}
+.lower-box-secure{
+   width:250px;
+  background-color: white;
+  margin-right:24px;
+  margin-left:24px;
+}
+.lower-box-rates{
+   width:250px;
+  background-color: white;
+  margin-right:24px;
+  margin-left:24px;
+}
+.lower-box-easy{
+  width:250px;
+  background-color: white;
+  margin-left: 24px;
+  margin-right:-50px;
+}
+.lower-box-title{
+  font-size:24px;
+  padding-left:10px;
+  
+}
+.lower-box-text{
+  font-size:14px;
+  padding-left:10px;
+}
+.stats-study{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(174, 87, 255);
+  align-items: center;
+  margin-top:20px;
+  height: 250px;
+}
+.approved{
+  padding-left:70px;
+}
+.satisfaction{
+  padding-right:70px;
+}
+.stats-title{
+  font-size:48px;
+  font-style:bold;
+}
+.stats-text{
+  font-size:20px;
+}
+.application{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.application-title{
+  font-size: 42px;
+  font-style: bold;
+}
+.application-text{
+  font-size:16px;
+  font-style: bold;
+}
+.application-button{
+  height:40px;
+  width:200px;
+  margin-top:50px;
+  background-color: rgba(135, 79, 255);
+  border-width:0;
+  color:white;
+  border-radius:4px;
+}
+.home,
+.about-us,
+.case-studies,
+.blog,
+.admin,
+.user-button{
+  border:none;
+  font-size:16px;
+  background-color: white;
+}
+.home,
+.about-us,
+.case-studies,
+.blog,
+.admin,
+.user-button:hover{
+  cursor:pointer;
+}
